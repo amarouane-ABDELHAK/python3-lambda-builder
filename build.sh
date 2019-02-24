@@ -4,8 +4,7 @@ cd data
 mkdir package
 cd package
 pip install -r ../requirements.txt --target .
-cp -r ../src .
+cp -r ../* .
 zip -r9 ../pyfunction.zip .
 cd ../
-zip -g pyfunction.zip handler.py
 mv pyfunction.zip /home/bamboo/dist/.
