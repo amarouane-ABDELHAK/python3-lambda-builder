@@ -5,7 +5,7 @@
 3. Add your handler.py inside the task folder
 4. Put all your extra source code inside a src folder
 5. Create requiremnts.txt
-6. Run `$docker run -v ${PWD}:/home/bamboo/data -v ${PWD}/dist:/home/bamboo/dist lambda-builder-py3.6`
+6. Run `$docker run -v ${PWD}:/home/bamboo/data -v ${PWD}/dist:/home/bamboo/dist amarouane/lambda-builder-py3.6`
 
 ```
 task
